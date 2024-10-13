@@ -2,7 +2,7 @@ name: Sonyliv Upload Links
 
 on:
   schedule:
-    - cron: '*/20 * * * *' # Runs every 20 minutes
+    - cron: '*/1 * * * *' # Runs every 20 minutes
   push:
     branches:
       - main
